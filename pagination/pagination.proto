@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package pagination;
-option go_package = "contracts/pagination/go;pagination";
+option go_package = "github.com/zard1q/contracts/pagination/go;paginationpb";
 
 message Pagination {
     uint32 offset = 1;
